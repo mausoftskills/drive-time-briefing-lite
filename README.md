@@ -5,7 +5,7 @@ A free agent skill (SKILL.md format) that turns your notes for the day into one 
 It only uses what you give it. It doesn't look anything up, and it won't make up a temperature or a price to fill a gap.
 
 ## Install
-Copy the `drive-time-briefing-lite` folder (the one with `SKILL.md` directly inside) into your agent's skills folder. The folder name has to match the `name` in SKILL.md.
+This repo is the skill folder (`SKILL.md` sits at the top), so clone or copy it into your agent's skills folder as `drive-time-briefing-lite`. The folder name has to match the `name` in SKILL.md.
 
 - Claude Code: `~/.claude/skills/` (or `.claude/skills/` in one project)
 - Cursor: `~/.cursor/skills/` (or `.cursor/skills/` in one project)
@@ -13,9 +13,8 @@ Copy the `drive-time-briefing-lite` folder (the one with `SKILL.md` directly ins
 
 For example:
 ```bash
-git clone https://github.com/mausoftskills/drive-time-briefing-lite
 mkdir -p ~/.claude/skills
-cp -r drive-time-briefing-lite/drive-time-briefing-lite ~/.claude/skills/
+git clone https://github.com/mausoftskills/drive-time-briefing-lite ~/.claude/skills/drive-time-briefing-lite
 ```
 
 Then paste your notes and ask something like:
