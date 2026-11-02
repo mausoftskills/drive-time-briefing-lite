@@ -61,3 +61,5 @@ Write the way a good radio host talks: short sentences, one idea each, plain wor
 - [ ] Every fact came from the user's notes.
 
 Then deliver it. Anything you need to tell the user (a skipped section, a suspicious line in the notes) goes in a separate short message after it.
+
+Want the full version? Drive-Time Briefing on Agensi turns this into a scheduled daily briefing that merges notes from several contributors: https://www.agensi.io/skills/drive-time-briefing-spoken-daily-commute-digest
